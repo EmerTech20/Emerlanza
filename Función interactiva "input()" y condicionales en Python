@@ -1,0 +1,24 @@
+#La función interactiva "input()>>> ATENCIÓN: iNput() con n, NO iMput() con M" <<< permite que el usuario pueda interactuar con el programa
+#foneciendo ciertos datos, como por ejemplo su nombre. Eje:
+
+print("¿Cómo te llamas?")
+nombre = input()# permite interactuar ingresando el nombre
+saludo = "Hola"
+opinion  = "¿Te está gustando aprender a programar?"
+
+print(saludo, nombre, opinion)
+
+opt = input() #opt = option (Si, No, cualquier otra cosa "Else") permite interactuar respondiendo a la pregunta asignada a opinión.
+
+mensj_anim = "Gracias por tu aporte. Seguiremos trabajando para adaptarnos mejor a las necesidades de cada alumno, pero insisto ¡NO TE RINDAS! Recuerda: Un genio se hace con un 1% de talento y un 99% de trabajo - Albert Einstein"
+
+if opt == "Si":
+    print("¡Great! Keep going :D")
+
+elif opt == "No": #elif opt != "Si" >>> Tambien es valida perolimitará la interacción a esta condición y no seguirá a la siguiente.
+
+     print("Lo siento mucho, pero no te rindas, verás que poco a poco le pillarás el gusto a esto")
+
+else:
+    print(mensj_anim)
+
