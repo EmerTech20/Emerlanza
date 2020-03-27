@@ -1,0 +1,38 @@
+# Usando los operadores aritmético podemos realizar variadas operaciones matemáticas. Puedes encontrar información detallada sobre éstos en:
+#(https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion3/operadores_aritmeticos.html)
+# Al ejecutar el primer bloque de codigo, al ejecutar >>> print(resultado) devolverá una concatenación de valores, es decir, en lugar de sumar los números, antes los unirá siendo así
+#por ejemplo 1 + 1 = 11. Para que se realice la operación matemática "sumar" debemos indicar que estamos liando con números ya sean enteros "int" o decimales (flotantes) "float".
+# La manera correcta de indicar con qué tipo de valor y operación con la cual queremos trabajar, para este caso concreto, indicaremos el tipo de valor "int()"
+#  y dentro de los parentesis del tipo int() añadiremos la función  de entrada  "input".
+#**********************************************************************************************************************************************************************************************#
+
+#FORMA INCORRECTA - RESULTA EN UNA CONCATENACIÓN DE VALORES:
+print("Ingresa el primer valor")
+
+num1 = (input())
+print("Ingresa el segundo valor")
+
+num2 = (input())
+
+resultado = num1 + num2
+
+print(resultado)#IMPRIMIRÁ EN PANTALLA  UNA CONCATENACIÓN DE VALORES
+
+#*******************************************************************************************************#
+print("\n") 
+#SALTO DE LINEA
+#*******************************************************************************************************#
+
+#FORMA CORRECTA - RESULTA EN UNA SUMA DE VALORES:
+print("Ingresa el primer valor")
+num1 = int(input())#INDICA EL TIPO DEL VALOR QUE SE INGRESARÁ - NUMEMRO ENTERO
+
+print(" ")
+
+
+print("Ingresa el segundo valor")
+num2 = int(input())#INDICA EL TIPO DEL VALOR QUE SE INGRESARÁ - NUMEMRO ENTERO
+
+resultado = num1 + num2# Es funcional con cualquier operador ( "+" "-" "*" "/" "** exponencial" "//" división entera "% resto")
+
+print("\nEl resultado es  = ", resultado)#IMPRIMIRÁ EN PANTALLA EL RESULTADO 
